@@ -20,6 +20,7 @@ namespace MVC_LibraryPractice2.Models
                     new Book { Title = "Mini dot-net project", CallNumber = "ASD 142"},
                     new Book { Title = "test1", CallNumber = "TRY 145"}
                     );
+                context.SaveChanges();
             }
         }
     }
